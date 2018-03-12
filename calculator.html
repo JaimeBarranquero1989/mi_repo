@@ -10,6 +10,10 @@ function seno(){
   var num = document.getElementById("n1");
   num.value = Math.sin(num.value * Math.PI /180);
 }
+function x4(){
+  var num = document.getElementById("n1");
+  num.value = Math.pow(num.value,4);
+}
 </script>
 </head>
 <body>
@@ -18,5 +22,6 @@ function seno(){
   <input type="text" id="n1"><p>
   <button onclick="cube()"> x<sup>3</sup> </button>
   <button onclick="seno()"> seno(x)</sup> </button>
+  <button onclick="x4()"> x<sup>4</sup> </button>
 </body>
 </html>
